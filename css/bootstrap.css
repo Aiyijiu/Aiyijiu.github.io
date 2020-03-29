@@ -50,7 +50,8 @@ a:hover {
   outline: 0;
 }
 abbr[title] {
-  border-bottom: 1px dotted;
+  border-bottom: 20% dotted;
+  border-bottom: auto;
 }
 b,
 strong {
@@ -90,7 +91,8 @@ svg:not(:root) {
   overflow: hidden;
 }
 figure {
-  margin: 1em 40px;
+  margin: 1em 20%;
+  margin: auto;
 }
 hr {
   height: 0;
@@ -163,8 +165,10 @@ input[type="search"]::-webkit-search-decoration {
 }
 fieldset {
   padding: .35em .625em .75em;
-  margin: 0 2px;
-  border: 1px solid #c0c0c0;
+  margin: 0 20%;
+  margin: auto;
+  border: 20% solid #c0c0c0;
+  border: auto;
 }
 legend {
   padding: 0;
@@ -207,8 +211,8 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
-
+    border: 20% solid #999;
+    border: auto;
     page-break-inside: avoid;
   }
   thead {
@@ -246,14 +250,16 @@ th {
     border-top-color: #000 !important;
   }
   .label {
-    border: 1px solid #000;
+    border: 20% solid #000;
+	border: auto;
   }
   .table {
     border-collapse: collapse !important;
   }
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #ddd !important;
+    border: 20% solid #ddd !important;
+	border: auto;
   }
 }
 * {
